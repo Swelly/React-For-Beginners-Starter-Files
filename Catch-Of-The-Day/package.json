@@ -41,7 +41,6 @@
     "sass-loader": "^2.0.1",
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.12.3",
-    "stylus": "^0.52.4",
     "svgo": "^0.5.6",
     "svgo-loader": "^1.1.0",
     "template-html-loader": "0.0.3",

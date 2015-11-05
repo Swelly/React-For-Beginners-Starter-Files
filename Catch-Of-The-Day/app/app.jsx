@@ -1,9 +1,11 @@
-// App JS entry point. Router Run here.
+// Load additional assets in /assets
 require.context(
   "./assets",
   true,
   /.*/
 );
+
+// App JS entry point. Router Run here.
 
 // import './favicon.ico';
 import './index.html';

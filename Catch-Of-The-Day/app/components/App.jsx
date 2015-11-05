@@ -1,15 +1,22 @@
-// App Structure and Navigation
-
 import React from 'react';
 // import ReactRouter, {RouteHandler, Link} from 'react-router';
+import StorePicker from './StorePicker';
+
+import Header from './Header.jsx';
+import Inventory from './Inventory.jsx';
+import Order from './Order.jsx';
+
 
 class App extends React.Component {
   render() {
-
     return (
-      <section className="page-wrapper">
-        <h1>Hey</h1>
-      </section>
+      <div className="catch-of-the-day">
+        <div className="menu">
+          <Header tagline="Fresh Seafood Market"/>
+        </div>
+        <Order />
+        <Inventory />
+      </div>
     )
   }
 }

@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "Haymaker";
+  src: url("/../assets/fonts/haymaker-webfont.eot");
+  src: url("/../assets/fonts/haymaker-webfont.eot?#iefix") format("embedded-opentype"),
+       url("/../assets/fonts/haymaker-webfont.woff") format("woff"),
+       url("/../assets/fonts/haymaker-webfont.ttf") format("truetype"),
+       url("/../assets/fonts/haymaker-webfont.svg#haymakerregular") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Blanch";
+  src: url('/../assets/fonts/blanch_caps_inline-webfont.eot');
+  src: url('/../assets/fonts/blanch_caps_inline-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/../assets/fonts/blanch_caps_inline-webfont.woff') format('woff'),
+       url('/../assets/fonts/blanch_caps_inline-webfont.ttf') format('truetype'),
+       url('/../assets/fonts/blanch_caps_inline-webfont.svg#blanchcaps_inline') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {font-size: 62.5%}
 
 body {
@@ -8,7 +30,7 @@ body {
     font-size: 2rem;
 }
 h1 {
-  font-family: 'blanchcaps_inline', sans-serif;;
+  font-family: "Blanch", sans-serif;;
   text-align: center;
   font-weight: normal;
   margin: 0;
@@ -16,7 +38,7 @@ h1 {
 
 h2,h3,h4,h5,h6 {
   font-weight: normal;
-  font-family: 'haymakerregular', sans-serif;
+  font-family: "Haymaker", sans-serif;
 }
 
 h2 {
