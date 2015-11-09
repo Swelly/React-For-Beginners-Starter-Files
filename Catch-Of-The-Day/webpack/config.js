@@ -51,6 +51,7 @@ var config = {
   devServer: {
     contentBase: path.resolve(pkg.config.buildDir),
     hot: true,
+    historyApiFallback: true,
     noInfo: false,
     inline: true,
     stats: { colors: true }
