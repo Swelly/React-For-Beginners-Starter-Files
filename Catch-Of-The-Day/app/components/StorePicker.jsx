@@ -1,17 +1,17 @@
 import React from 'react';
+import { History } from 'react-router';
 
 class StorePicker extends React.Component {
-  render() {
-    let name = "Wes";
 
+  render() {
     return (
       <form className="store-selector">
-        <h2>Please Enter A Store {name}</h2>
-        <input type="text" ref="storeId" />
+        <h2>Please Enter A Store</h2>
+        <input type="text" ref="storeId" required/>
         <input type="Submit" />
       </form>
     )
   }
 }
 
-export default StorePicker
+export default StorePicker;

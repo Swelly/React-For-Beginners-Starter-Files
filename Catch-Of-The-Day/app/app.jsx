@@ -14,12 +14,10 @@ import './scss/master.scss';
 
 
 import React from 'react';
-import Router from 'react-router';
+import ReactDOM from 'react-dom';
 import routes from './routes';
 
 // Bind to body
 const mountNode = document.getElementById('main');
 
-Router.run(routes, Router.HashLocation, function (Handler) {
-  React.render(<Handler/>, mountNode);
-});
+ReactDOM.render(routes, mountNode);

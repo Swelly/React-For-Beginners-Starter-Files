@@ -1,7 +1,4 @@
 import React from 'react';
-// import ReactRouter, {RouteHandler, Link} from 'react-router';
-import StorePicker from './StorePicker';
-
 import Header from './Header.jsx';
 import Inventory from './Inventory.jsx';
 import Order from './Order.jsx';
@@ -21,4 +18,4 @@ class App extends React.Component {
   }
 }
 
-export default App
+export default App;
